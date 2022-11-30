@@ -19,7 +19,6 @@ public class App {
         output(worker.doYourJob());
         output(queen.doYourJob());
         output(drone.doYourJob());
-        output(bird.doYourJob());
 
         output("-----------------");
 
@@ -29,6 +28,10 @@ public class App {
         output(bird.fly());
 
         output(bird.hasFeathers());
+
+        output(worker.nest());
+        output(queen.nest());
+        output(drone.nest());
 
 
 
